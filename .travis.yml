@@ -4,7 +4,7 @@ install:
 - chmod u+x .ci/update_build.sh
 
 before_script:
-  - BUILD_TIME=\"$(TZ=Asia/Hong_Kong date '+%a %d %b %Y %T %Z')\"
+  - BUILD_TIME=$(TZ=Asia/Hong_Kong date '+%a %d %b %Y %T %Z')
 
 script: make all
 
