@@ -23,4 +23,4 @@ The following people have contributed to this repository or helped keeping this 
 
 * [tanxpyox](github.com/tanxpyox)
 
-(Please start a pull request if you want your name to be included in this list)
+(Please start a pull request if you want to add your name to this list)
