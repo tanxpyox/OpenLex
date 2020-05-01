@@ -21,6 +21,6 @@ Currently, this repository hosts 7 treatises with the following headings. More w
 * Materials in this repository are subject to the GNU General Public License v3.0, any clones or derivatives thereof must abide by and be licensed to the same terms. The full terms and conditions are set out [here](https://github.com/tanxpyox/OpenLex/blob/master/LICENSE).
 
 # Contributors and Acknowledgement
-The following people have contributed to this repository or helped keeping this project up and alive: (In alphabetical/stroke order)
+The following people have contributed to this repository or helped keeping this project up and alive: (In chronological order of contribution)
 
-* [亶父](github.com/tanxpyox)
+* [tanxpyox](github.com/tanxpyox)
