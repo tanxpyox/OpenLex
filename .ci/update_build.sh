@@ -9,7 +9,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
         git config --global user.name "Travis"
     fi
     # using token clone gh-pages branch
-    git clone --quiet --branch=$BRANCH https://${GH_TOKEN}@github.com/$TARGET_REPO build > /dev/null
+    git clone --quiet --branch=$BRANCH https://${GITHUB_TOKEN}@github.com/$TARGET_REPO build > /dev/null
     # go into directory and copy data we're interested in to that directory
     cd build
     cp ../readme.md ../index.html .
