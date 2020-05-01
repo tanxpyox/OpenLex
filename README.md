@@ -5,13 +5,13 @@ Welcome to OpenLex, an open-source and community-based repository for Hong Kong 
 
 # Available treatises
 Currently, this repository hosts 7 treatises with the following headings. More will be added as time goes by.
-* [`openlex-contract`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-contract): A treatise on the law of contract in Hong Kong. ([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-contract.pdf))
-* [`openlex-tort`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-tort): A treatise on the **law of torts** in Hong Kong.([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-tort.pdf))
-* [`openlex-crim`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-crim): A treatise on the **criminal law** of Hong Kong.([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-crim.pdf))
-* [`openlex-cons`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-cons): A treatise on the **constitutional** law of Hong Kong.([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-cons.pdf))
-* [`openlex-land`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-land): A treatise on the **land law** of Hong Kong.([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-land.pdf))
-* [`openlex-admin`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-admin): A treatise on the **administrative law** of Hong Kong.([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-admin.pdf))
-* [`openlex-equity`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-equity): A treatise on the **law of equity and trust** in Hong Kong.([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-equity.pdf))
+* [`openlex-contract`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-contract): A treatise on the **law of contract** in Hong Kong. ([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-contract.pdf))
+* [`openlex-tort`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-tort): A treatise on the **law of torts** in Hong Kong. ([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-tort.pdf))
+* [`openlex-crim`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-crim): A treatise on the **criminal law** of Hong Kong. ([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-crim.pdf))
+* [`openlex-cons`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-cons): A treatise on the **constitutional** law of Hong Kong. ([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-cons.pdf))
+* [`openlex-land`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-land): A treatise on the **land law** of Hong Kong. ([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-land.pdf))
+* [`openlex-admin`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-admin): A treatise on the **administrative law** of Hong Kong. ([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-admin.pdf))
+* [`openlex-equity`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-equity): A treatise on the **law of equity and trust** in Hong Kong. ([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-equity.pdf))
 
 # Improvements?
 * Help us keep the treatises up to date! Report an issue or an error [here](https://github.com/tanxpyox/OpenLex/issues/new?assignees=&labels=update&template=errors-or-old-law.md&title=%5BUpdate%5D+), or directly propose changes in the treatises by using a pull request.
