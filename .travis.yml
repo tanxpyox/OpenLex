@@ -3,7 +3,7 @@ install:
 - sudo apt-get install -y pandoc texlive-full texlive-xetex
 - chmod u+x .ci/update_build.sh
 
-env:
+before_script:
   - BUILD_TIME=\"$(TZ=Asia/Hong_Kong date '+%a %d %b %Y %T %Z')\"
 
 script: make all
