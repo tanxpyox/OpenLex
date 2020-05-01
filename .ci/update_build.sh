@@ -14,6 +14,6 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
     # add, commit and push files
     git add -f *.pdf
     git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to Build Branch"
-    git push -fq origin $BRANCH > /dev/null
+    git push -fq origin HEAD:$BRANCH > /dev/null
     echo -e "Deploy completed\n"
 fi
