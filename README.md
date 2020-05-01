@@ -1,7 +1,7 @@
-# Project OpenLex
+# Project OpenLex: Build
 Welcome to OpenLex, an open-source and community-based repository for hosting Hong Kong legal treatises.
 
-Please subscribe to this repository by using the 'watch' button on the top right-hand corner.
+Please find the compiled pdf files here.
 
 # Available treatises
 Currently, this repository hosts 7 treatises with the following headings. More will be added as time goes by.
@@ -20,7 +20,3 @@ Currently, this repository hosts 7 treatises with the following headings. More w
 # Licence
 * Materials in this repository are subject to the GNU General Public License v3.0, any clones or derivatives thereof must abide by and be licensed to the same terms. The full terms and conditions are set out [here](https://github.com/tanxpyox/OpenLex/blob/master/LICENSE).
 
-# Contributors and Acknowledgement
-The following people have contributed to this repository or helped keeping this project up and alive: (In alphabetical/stroke order)
-
-* [亶父](github.com/tanxpyox)
