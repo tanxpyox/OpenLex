@@ -3,6 +3,11 @@ install:
 - sudo apt-get install -y pandoc texlive-full texlive-xetex
 - chmod u+x .ci/update_build.sh
 
+env:
+  - BUILD_TIME=$(TZ=Asia/Hong_Kong date)
+
 script: make travis
 
-after_success: bash .ci/update_build.sh
+after_success:
+  - bash .ci/update_build.sh
+  - echo $BUILD_TIME
