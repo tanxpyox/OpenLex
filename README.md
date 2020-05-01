@@ -1,7 +1,7 @@
 # Project OpenLex
 Welcome to OpenLex, an open-source and community-based repository for hosting Hong Kong legal treatises.
 
-Please subscribe to this repository by using the 'watch' button on the top right-hand corner, or give us a 'star' to show us your support.
+Please subscribe to this repository by using the 'watch' button on the top right-hand corner.
 
 # Available treatises
 Currently, this repository hosts 7 treatises with the following headings. More will be added as time goes by.
