@@ -1,0 +1,7 @@
+# document class
+---
+fontsize: 12pt
+author: "The Learned Contributors to OpenLex"
+papersize: a4
+date: ${BUILD_TIME}
+---
