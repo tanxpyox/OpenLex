@@ -3,6 +3,8 @@ Welcome to OpenLex, an open-source and community-based repository for Hong Kong 
 
 [![Build Status](https://travis-ci.com/tanxpyox/OpenLex.svg?branch=master)](https://travis-ci.com/tanxpyox/OpenLex)
 
+Powered by [pandoc](https://github.com/jgm/pandoc) and [Travis CI](https://travis-ci.com/dashboard).
+
 # Available treatises
 Currently, this repository hosts 7 treatises with the following headings. More will be added as time goes by.
 * [`openlex-contract`](https://github.com/tanxpyox/OpenLex/tree/master/openlex-contract): A treatise on the **law of contract** in Hong Kong. ([pdf](https://github.com/tanxpyox/OpenLex/blob/build/openlex-contract.pdf))
