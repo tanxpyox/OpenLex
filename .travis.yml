@@ -5,15 +5,15 @@ install:
 
 before_script:
   - BUILD_TIME=$(TZ=Asia/Hong_Kong date '+%a %d %b %Y %T %Z')
-  - ADMIN=`ls openlex-admin`
-  - CONS=`ls openlex-cons`
-  - CONTRACT=`ls openlex-contract`
-  - CRIM=`ls openlex-crim`
-  - EQUITY=`ls openlex-equity`
-  - LAND=`ls openlex-land`
-  - TORT=`ls openlex-tort`
+#  - ADMIN=`ls openlex-admin`
+#  - CONS=`ls openlex-cons`
+#  - CONTRACT=`ls openlex-contract`
+#  - CRIM=`ls openlex-crim`
+#  - EQUITY=`ls openlex-equity`
+#  - LAND=`ls openlex-land`
+#  - TORT=`ls openlex-tort`
 
-script: make all
+script: make travis
 
 after_success:
   - bash .ci/update_build.sh
