@@ -18,7 +18,7 @@ equity: .template/template.tex .template/metadata.yaml
 	pandoc -N --template=.template/template.tex --variable title="Equity and Trust" .template/metadata.yaml $$EQUITY --latex-engine=xelatex --toc -o openlex-equity.pdf
 
 land: .template/template.tex .template/metadata.yaml
-	pandoc -N --template=.template/template.tex --variable title="Land Law" template/metadata.yaml $$LAND .--latex-engine=xelatex --toc -o openlex-land.pdf
+	pandoc -N --template=.template/template.tex --variable title="Land Law" .template/metadata.yaml $$LAND --latex-engine=xelatex --toc -o openlex-land.pdf
 
 tort: .template/template.tex .template/metadata.yaml
 	pandoc -N --template=.template/template.tex --variable title="Tort Law" .template/metadata.yaml $$TORT --latex-engine=xelatex --toc -o openlex-tort.pdf
