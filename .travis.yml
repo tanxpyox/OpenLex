@@ -3,7 +3,7 @@ install:
 - sudo apt-get install -y pandoc texlive-full texlive-xetex
 - chmod u+x .ci/update_build.sh
 
-env:
+before_script:
   - BUILD_TIME=$(TZ=Asia/Hong_Kong date '+%a %d %b %Y %T %Z')
   - ADMIN=`ls openlex-admin`
   - CONS=`ls openlex-cons`
@@ -12,9 +12,6 @@ env:
   - EQUITY=`ls openlex-equity`
   - LAND=`ls openlex-land`
   - TORT=`ls openlex-tort`
-
-before_script:
-  - BUILD_TIME=$(TZ=Asia/Hong_Kong date '+%a %d %b %Y %T %Z')
 
 script: make all
 
