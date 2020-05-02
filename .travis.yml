@@ -1,7 +1,14 @@
+language: c
+cache:
+  - /usr/bin/xelatex
+  - /usr/bin/pandoc
+  - /usr/share/texlive
+
+
 install:
-- sudo apt-get update -qq
-- sudo apt-get install -y pandoc texlive-full texlive-xetex
-- chmod u+x .ci/update_build.sh
+  - sudo apt-get update -qq
+  - sudo apt-get install -y pandoc texlive-full texlive-xetex
+  - chmod u+x .ci/update_build.sh
 
 before_script:
   - BUILD_TIME=$(TZ=Asia/Hong_Kong date '+%a %d %b %Y %T %Z')
@@ -13,7 +20,7 @@ before_script:
 #  - LAND=`ls openlex-land`
 #  - TORT=`ls openlex-tort`
 
-script: make travis
+script: make all
 
 after_success:
   - bash .ci/update_build.sh
