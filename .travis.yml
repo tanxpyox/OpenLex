@@ -1,12 +1,5 @@
 language: c
 
-sudo: true
-
-cache:
-  - /usr/bin/xelatex
-  - /usr/bin/pandoc
-  - /usr/share/texlive
-
 addons:
   apt:
     update: true
