@@ -9,6 +9,7 @@ addons:
     - texlive-xetex
 
 before_script:
+  - export TZ=Asia/Hong_KONG
   - BUILD_TIME=$(TZ=Asia/Hong_Kong date '+%a %d %b %Y %T %Z')
 #  - ADMIN=`ls openlex-admin`
 #  - CONS=`ls openlex-cons`
