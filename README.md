@@ -1,4 +1,4 @@
-# Project OpenLex
+# OpenLex
 Welcome to OpenLex, an open-source and community-based repository for Hong Kong legal treatises.
 
 [![Build Status](https://travis-ci.com/tanxpyox/OpenLex.svg?branch=master)](https://travis-ci.com/tanxpyox/OpenLex)
