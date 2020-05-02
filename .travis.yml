@@ -33,5 +33,6 @@ before_deploy:
 deploy:
   provider: script
   script: .ci/update_build.sh
+  skip_cleanup: true
   on:
     branch: master
