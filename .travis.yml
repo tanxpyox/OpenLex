@@ -1,9 +1,9 @@
 language: c
+
 cache:
   - /usr/bin/xelatex
   - /usr/bin/pandoc
   - /usr/share/texlive
-
 
 install:
   - sudo apt-get update -qq
