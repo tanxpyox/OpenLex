@@ -1,9 +1,6 @@
 language: c
 
-cache:
-  - /usr/bin/xelatex
-  - /usr/bin/pandoc
-  - /usr/share/texlive
+sudo: true
 
 install:
   - sudo apt-get update -qq
@@ -25,3 +22,8 @@ script: make all
 after_success:
   - bash .ci/update_build.sh
   - echo $BUILD_TIME
+
+cache:
+  - /usr/bin/xelatex
+  - /usr/bin/pandoc
+  - /usr/share/texlive
