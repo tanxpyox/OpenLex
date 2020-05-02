@@ -1,7 +1,7 @@
 # Project OpenLex
 Welcome to OpenLex, an open-source and community-based repository for Hong Kong legal treatises.
 
-![](https://travis-ci.com/tanxpyox/OpenLex.svg?branch=master&status=started)
+[![Build Status](https://travis-ci.com/tanxpyox/OpenLex.svg?branch=master)](https://travis-ci.com/tanxpyox/OpenLex)
 
 # Available treatises
 Currently, this repository hosts 7 treatises with the following headings. More will be added as time goes by.
