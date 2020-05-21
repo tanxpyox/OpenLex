@@ -20,7 +20,7 @@ Currently, this repository hosts 7 treatises with the following headings. More w
 * Or just drop us a comment [here](https://github.com/tanxpyox/OpenLex/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BImprove%5D) if you know how to improve this project!
 
 # Licence
-* Materials in this repository are subject to the GNU General Public License v3.0, any clones or derivatives thereof must abide by and be licensed to the same terms. The full terms and conditions are set out [here](https://github.com/tanxpyox/OpenLex/blob/master/LICENSE).
+* Materials in this repository are subject to the *Creative Commons Attribution-ShareAlike 4.0 International* licence, any clones or derivatives thereof must abide by and be licensed to the same terms. The full terms and conditions are set out [here](https://github.com/tanxpyox/OpenLex/blob/master/LICENSE).
 
 # Contributors and Acknowledgement
 The following people have contributed to this repository or helped keeping this project up and alive:
